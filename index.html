@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 </head>
 <body>
-    <div class="cover">
-        <button id="my-blog">My blog</button>
-        <button id="my-cv" onclick="window.open('CV.pdf'); return true;">My CV</button>
+    <header>
+        <div class="logo">👨🏻‍💻Portfolio</div>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#credintials">credintials</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    
-        <img src="img/profile-min.jpg" alt="Profile Picture" class="profile">
-    </div>
-    <header>
-        <h1>Ummaneni Siva Prasad</h1>
     </header>
-    <div id="contact" align="center">
-        <a href=" "><i class="fab fa-github"></i></a>
-        <a href=" "><i class="fa fa-facebook"></i></a>
-        <a href=" "><i class="fa fa-linkedin"></i></a>
-        <a href=" "><i class="fa fa-instagram"></i></a>
-    </div>
+
+    
+        <div class="hero">
+            <div>
+                <img src="img/profile-min.jpg" alt="Profile Picture">
+            <div class="contact">
+                <a href="https://github.com/siva-1916"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/share/18Po94pMWb/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/siva-prasad-ummaneni-289793262/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/siva_19_16?igsh=YTNjY3Azc2V5ZmJ4"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:sivaprasad.ummaneni@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+            </div>
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Product Manager | R & D Engineer</p>
+            <p>I'm <b style="color: #ffffff;">Ummaneni Siva Prasad</b>, passionate about building innovative tech solutions. Let’s create something amazing together!</p>
+            <button onclick="https://siva-1916.github.io/MINE/">My Blog</button>
+            <button onclick="window.open('CV.pdf')">My CV</button>
+        </div>
+        </div>
+        
         <section id="about">
             <h2>About Me</h2>
             <p>Innovative and solutions-driven final-year BSc Computer Science and Mathematics student with a passion for technology and problem-solving.
@@ -76,20 +88,19 @@
                 <h3>Auto Image Compressor<a href="https://github.com/siva-1916/Auto-Image-Compressor">🔗</a></h3>
                 <p>This is a logical approach that compresses image automatically when it is greater than 200kb while submitting in form.</p>
 
-                <h3>Face-Golden Ratio Check</h3>
+                <h3>Face-Golden Ratio Check<a href="https://github.com/siva-1916/Face-Golden-Ratio-Check">🔗</a></h3>
                 <p>This Project involves in showing our face golden ration for 10points.</p>
 
+                <h3>Regula-Falsi Method<a href="https://github.com/siva-1916/Regula-Falsi-Method">🔗</a></h3>
+                <p>Developed a web-based application implementing the <b>Regula-Falsi (False Position) Method </b>to find function roots.Users input a
+                    function, initial guesses, and a tolerance value; the tool iteratively applies the method, displaying results in a table.</p>
                 <h3>NAS DRIVE(On Going)</h3>
                 <p>This invention relates to a USB storage device integrated with cloud synchronization
                     capabilities, creating a hybrid <b>NAS (Network-Attached Storage)</b> and local storage solution.
                     The invention enables users to store, access, and sync files seamlessly between a USB
-                    pendrive, cloud storage, and a network-connected host device.</p>
+                    pendrive, cloud storage, and a network-connected host device.
+                </p>
 
-                <h3>Pen-Mouse(Up Coming)</h3>
-                <p>This invention related to integration of <b>Air Mouse</b> with Touch sensor resulting Amazing Pen-Mouse. This invention enables users to perform touch screen functionalities like double-tap, scroll and etc., on normal screens.</p>
-                
-                <h3>ChatBot(Up Coming)</h3>
-                <p>This ChatBot works on its own MetaData. Published Books with copyrights as meta data make it stands unique from all other ChatBot's. This inventon enables user to get more accurate results. It would be going to more helpful for researchers for their reaserch work.</p>
             </div>
         </section>
 
@@ -107,8 +118,9 @@
 
             </ul>
         </section>
-    </div>
     
-    <script src="script.js"></script>
+    <footer>
+        &copy; 2025 Ummaneni Siva Prasad | All Rights Reserved
+    </footer>
 </body>
 </html>
